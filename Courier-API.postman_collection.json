@@ -1,0 +1,547 @@
+{
+  "info": {
+    "_postman_id": "0674c796-5b19-4c26-9647-3ba0bc1a5473",
+    "name": "Courier-API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "30518268"
+  },
+  "item": [
+    {
+      "name": "courier",
+      "item": [
+        {
+          "name": "Retrieve Courier",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": [
+            {
+              "name": "200",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/couriers",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "couriers"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Host",
+                  "value": "127.0.0.1:8000"
+                },
+                {
+                  "key": "Connection",
+                  "value": "close"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "PHP/8.3.32"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, private"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 19 Sep 2026 23:20:32 GMT"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Access-Control-Allow-Origin",
+                  "value": "*"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"data\": [\n        {\n            \"id\": 49,\n            \"name\": \"Aletha Wiza\",\n            \"phone\": \"081239933686\",\n            \"email\": \"cremin.theo@example.net\",\n            \"id_card_number\": \"4400592765310926\",\n            \"address\": \"845 Hegmann Estate Suite 005\\nEast Rahul, IN 48168\",\n            \"vehicle_type\": \"bicycle\",\n            \"vehicle_plate\": \"B 5004 cx\",\n            \"level\": 5,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:03.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:03.000000Z\"\n        },\n        {\n            \"id\": 39,\n            \"name\": \"Andy Beahan\",\n            \"phone\": \"081814845361\",\n            \"email\": \"treutel.haleigh@example.org\",\n            \"id_card_number\": \"3470846099090857\",\n            \"address\": \"1636 Pauline River\\nLake Brandt, RI 21600-2988\",\n            \"vehicle_type\": \"car\",\n            \"vehicle_plate\": \"B 0725 hg\",\n            \"level\": 2,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 20,\n            \"name\": \"Arielle Aufderhar\",\n            \"phone\": \"081474144978\",\n            \"email\": \"ccummings@example.com\",\n            \"id_card_number\": \"1269072214968127\",\n            \"address\": \"74000 Kozey Village Apt. 054\\nKuhnhaven, DE 28391\",\n            \"vehicle_type\": \"motorcycle\",\n            \"vehicle_plate\": \"B 2337 bu\",\n            \"level\": 3,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 41,\n            \"name\": \"Audra Bruen\",\n            \"phone\": \"081589584433\",\n            \"email\": \"bradtke.lavada@example.com\",\n            \"id_card_number\": \"8993237123315880\",\n            \"address\": \"35036 Hauck Trafficway\\nPort Verliechester, CO 53003-6337\",\n            \"vehicle_type\": \"motorcycle\",\n            \"vehicle_plate\": \"B 6161 ou\",\n            \"level\": 1,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 21,\n            \"name\": \"Audra Kiehn\",\n            \"phone\": \"081652377798\",\n            \"email\": \"athiel@example.com\",\n            \"id_card_number\": \"5549471040719960\",\n            \"address\": \"9881 Kuvalis Rapid Apt. 752\\nKertzmannbury, LA 76199\",\n            \"vehicle_type\": \"van\",\n            \"vehicle_plate\": \"B 6475 bb\",\n            \"level\": 5,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 15,\n            \"name\": \"Austyn Gerlach\",\n            \"phone\": \"081531879907\",\n            \"email\": \"jonathon55@example.net\",\n            \"id_card_number\": \"5203132233136649\",\n            \"address\": \"18186 Estefania Glens\\nEvalynchester, HI 80479-9920\",\n            \"vehicle_type\": \"car\",\n            \"vehicle_plate\": \"B 6821 iv\",\n            \"level\": 5,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 19,\n            \"name\": \"Betsy Zemlak\",\n            \"phone\": \"081874949111\",\n            \"email\": \"acormier@example.net\",\n            \"id_card_number\": \"1686905556298616\",\n            \"address\": \"635 Marlen View\\nZellafort, NC 82740-3933\",\n            \"vehicle_type\": \"van\",\n            \"vehicle_plate\": \"B 0490 xi\",\n            \"level\": 2,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 47,\n            \"name\": \"Brionna Olson\",\n            \"phone\": \"081948558726\",\n            \"email\": \"deron26@example.net\",\n            \"id_card_number\": \"4307208904332731\",\n            \"address\": \"322 Hamill Parkways\\nLake Trudie, NE 21377\",\n            \"vehicle_type\": \"bicycle\",\n            \"vehicle_plate\": \"B 0712 zn\",\n            \"level\": 1,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:03.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:03.000000Z\"\n        },\n        {\n            \"id\": 18,\n            \"name\": \"Camila Volkman\",\n            \"phone\": \"081016638190\",\n            \"email\": \"diana75@example.com\",\n            \"id_card_number\": \"4230634928897788\",\n            \"address\": \"91156 Langworth Centers Suite 844\\nSouth Edmond, OH 59280\",\n            \"vehicle_type\": \"motorcycle\",\n            \"vehicle_plate\": \"B 8679 vw\",\n            \"level\": 3,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 13,\n            \"name\": \"Crystal Gorczany\",\n            \"phone\": \"081691479342\",\n            \"email\": \"melisa85@example.org\",\n            \"id_card_number\": \"8947808181355471\",\n            \"address\": \"2774 Hartmann Parks Apt. 676\\nEast Zenaside, DC 87556\",\n            \"vehicle_type\": \"van\",\n            \"vehicle_plate\": \"B 4816 um\",\n            \"level\": 4,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 12,\n            \"name\": \"Delphia Crist Jr.\",\n            \"phone\": \"081872453766\",\n            \"email\": \"viola72@example.net\",\n            \"id_card_number\": \"0765614706245172\",\n            \"address\": \"904 Maurice Ferry Apt. 648\\nPort Jessycaborough, CA 11149\",\n            \"vehicle_type\": \"van\",\n            \"vehicle_plate\": \"B 3769 bh\",\n            \"level\": 4,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 33,\n            \"name\": \"Donnell Halvorson\",\n            \"phone\": \"081834952111\",\n            \"email\": \"dane.hill@example.net\",\n            \"id_card_number\": \"7597967123338448\",\n            \"address\": \"873 Eloy Heights Suite 230\\nKovacekshire, NY 94606-4285\",\n            \"vehicle_type\": \"car\",\n            \"vehicle_plate\": \"B 8642 bw\",\n            \"level\": 4,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 30,\n            \"name\": \"Dorris Block\",\n            \"phone\": \"081813162975\",\n            \"email\": \"oreilly.antonio@example.org\",\n            \"id_card_number\": \"9749346198145133\",\n            \"address\": \"35778 Volkman Parkways\\nSouth Dakotafurt, NY 13969\",\n            \"vehicle_type\": \"car\",\n            \"vehicle_plate\": \"B 5554 ua\",\n            \"level\": 4,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 26,\n            \"name\": \"Dr. Gaetano Metz Sr.\",\n            \"phone\": \"081929603476\",\n            \"email\": \"ortiz.xavier@example.org\",\n            \"id_card_number\": \"1959543626504873\",\n            \"address\": \"8078 Pfannerstill Brook Suite 939\\nBabymouth, GA 72953\",\n            \"vehicle_type\": \"motorcycle\",\n            \"vehicle_plate\": \"B 4891 qc\",\n            \"level\": 3,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        },\n        {\n            \"id\": 1,\n            \"name\": \"Dr. Retha Bode IV\",\n            \"phone\": \"081871140125\",\n            \"email\": \"rschumm@example.net\",\n            \"id_card_number\": \"1706064599863624\",\n            \"address\": \"87475 Coleman Brooks Apt. 222\\nAmelieton, MN 48113-4516\",\n            \"vehicle_type\": \"van\",\n            \"vehicle_plate\": \"B 2688 yx\",\n            \"level\": 3,\n            \"is_active\": true,\n            \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n            \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n        }\n    ],\n    \"links\": {\n        \"first\": \"http://127.0.0.1:8000/api/couriers?page=1\",\n        \"last\": \"http://127.0.0.1:8000/api/couriers?page=4\",\n        \"prev\": null,\n        \"next\": \"http://127.0.0.1:8000/api/couriers?page=2\"\n    },\n    \"meta\": {\n        \"current_page\": 1,\n        \"from\": 1,\n        \"last_page\": 4,\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"page\": null,\n                \"active\": false\n            },\n            {\n                \"url\": \"http://127.0.0.1:8000/api/couriers?page=1\",\n                \"label\": \"1\",\n                \"page\": 1,\n                \"active\": true\n            },\n            {\n                \"url\": \"http://127.0.0.1:8000/api/couriers?page=2\",\n                \"label\": \"2\",\n                \"page\": 2,\n                \"active\": false\n            },\n            {\n                \"url\": \"http://127.0.0.1:8000/api/couriers?page=3\",\n                \"label\": \"3\",\n                \"page\": 3,\n                \"active\": false\n            },\n            {\n                \"url\": \"http://127.0.0.1:8000/api/couriers?page=4\",\n                \"label\": \"4\",\n                \"page\": 4,\n                \"active\": false\n            },\n            {\n                \"url\": \"http://127.0.0.1:8000/api/couriers?page=2\",\n                \"label\": \"Next &raquo;\",\n                \"page\": 2,\n                \"active\": false\n            }\n        ],\n        \"path\": \"http://127.0.0.1:8000/api/couriers\",\n        \"per_page\": 15,\n        \"to\": 15,\n        \"total\": 50\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "Filter Courier",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "200 courier tidak ditemukan dengan data yg ada",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/couriers?search=budi agung&level=2,3&sort=created_at&direction=desc&per_page=5",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "couriers"
+                  ],
+                  "query": [
+                    {
+                      "key": "search",
+                      "value": "budi agung",
+                      "type": "text"
+                    },
+                    {
+                      "key": "level",
+                      "value": "2,3",
+                      "type": "text"
+                    },
+                    {
+                      "key": "sort",
+                      "value": "created_at",
+                      "type": "text"
+                    },
+                    {
+                      "key": "direction",
+                      "value": "desc",
+                      "type": "text"
+                    },
+                    {
+                      "key": "per_page",
+                      "value": "5",
+                      "type": "text"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Host",
+                  "value": "127.0.0.1:8000"
+                },
+                {
+                  "key": "Connection",
+                  "value": "close"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "PHP/8.3.32"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, private"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 19 Sep 2026 23:23:04 GMT"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Access-Control-Allow-Origin",
+                  "value": "*"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"data\": [],\n    \"links\": {\n        \"first\": \"http://127.0.0.1:8000/api/couriers?search=budi%20agung&level=2%2C3&sort=created_at&direction=desc&per_page=5&page=1\",\n        \"last\": \"http://127.0.0.1:8000/api/couriers?search=budi%20agung&level=2%2C3&sort=created_at&direction=desc&per_page=5&page=1\",\n        \"prev\": null,\n        \"next\": null\n    },\n    \"meta\": {\n        \"current_page\": 1,\n        \"from\": null,\n        \"last_page\": 1,\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"page\": null,\n                \"active\": false\n            },\n            {\n                \"url\": \"http://127.0.0.1:8000/api/couriers?search=budi%20agung&level=2%2C3&sort=created_at&direction=desc&per_page=5&page=1\",\n                \"label\": \"1\",\n                \"page\": 1,\n                \"active\": true\n            },\n            {\n                \"url\": null,\n                \"label\": \"Next &raquo;\",\n                \"page\": null,\n                \"active\": false\n            }\n        ],\n        \"path\": \"http://127.0.0.1:8000/api/couriers\",\n        \"per_page\": 5,\n        \"to\": null,\n        \"total\": 0\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "Detail Courier",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "200",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/couriers/1",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "couriers",
+                    "1"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Host",
+                  "value": "127.0.0.1:8000"
+                },
+                {
+                  "key": "Connection",
+                  "value": "close"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "PHP/8.3.32"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, private"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 19 Sep 2026 23:24:21 GMT"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Access-Control-Allow-Origin",
+                  "value": "*"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"Dr. Retha Bode IV\",\n        \"phone\": \"081871140125\",\n        \"email\": \"rschumm@example.net\",\n        \"id_card_number\": \"1706064599863624\",\n        \"address\": \"87475 Coleman Brooks Apt. 222\\nAmelieton, MN 48113-4516\",\n        \"vehicle_type\": \"van\",\n        \"vehicle_plate\": \"B 2688 yx\",\n        \"level\": 3,\n        \"is_active\": true,\n        \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n        \"updated_at\": \"2026-09-19T23:13:02.000000Z\"\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "add courier",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/couriers",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "couriers"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "200",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"name\": \"Budiono Hadi Agung\",\r\n  \"phone\": \"081234567890\",\r\n  \"vehicle_type\": \"motorcycle\",\r\n  \"vehicle_plate\": \"M 1234 AB\",\r\n  \"level\": 3\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{base_url}}/couriers",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "couriers"
+                  ]
+                }
+              },
+              "status": "Created",
+              "code": 201,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Host",
+                  "value": "127.0.0.1:8000"
+                },
+                {
+                  "key": "Connection",
+                  "value": "close"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "PHP/8.3.32"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, private"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 19 Sep 2026 23:25:26 GMT"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Access-Control-Allow-Origin",
+                  "value": "*"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"data\": {\n        \"id\": 51,\n        \"name\": \"Budiono Hadi Agung\",\n        \"phone\": \"081234567890\",\n        \"email\": null,\n        \"id_card_number\": null,\n        \"address\": null,\n        \"vehicle_type\": \"motorcycle\",\n        \"vehicle_plate\": \"M 1234 AB\",\n        \"level\": 3,\n        \"is_active\": true,\n        \"created_at\": \"2026-09-19T23:25:26.000000Z\",\n        \"updated_at\": \"2026-09-19T23:25:26.000000Z\"\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "update courier",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/couriers",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "couriers"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "200",
+              "originalRequest": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"name\": \"Budiono Agung\",\r\n  \"phone\": \"089274892470\",\r\n  \"vehicle_type\": \"motorcycle\",\r\n  \"vehicle_plate\": \"M 12345 AB\",\r\n  \"level\": 3\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{base_url}}/couriers/1",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "couriers",
+                    "1"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Host",
+                  "value": "127.0.0.1:8000"
+                },
+                {
+                  "key": "Connection",
+                  "value": "close"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "PHP/8.3.32"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, private"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 19 Sep 2026 23:26:57 GMT"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Access-Control-Allow-Origin",
+                  "value": "*"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"Budiono Agung\",\n        \"phone\": \"089274892470\",\n        \"email\": \"rschumm@example.net\",\n        \"id_card_number\": \"1706064599863624\",\n        \"address\": \"87475 Coleman Brooks Apt. 222\\nAmelieton, MN 48113-4516\",\n        \"vehicle_type\": \"motorcycle\",\n        \"vehicle_plate\": \"M 12345 AB\",\n        \"level\": 3,\n        \"is_active\": true,\n        \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n        \"updated_at\": \"2026-09-19T23:26:57.000000Z\"\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "update parcial",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"level\": 3 }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/couriers/1",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "couriers",
+                "1"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "200",
+              "originalRequest": {
+                "method": "PATCH",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{ \"level\": 3 }",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{base_url}}/couriers/1",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "couriers",
+                    "1"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Host",
+                  "value": "127.0.0.1:8000"
+                },
+                {
+                  "key": "Connection",
+                  "value": "close"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "PHP/8.3.32"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, private"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 19 Sep 2026 23:29:32 GMT"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Access-Control-Allow-Origin",
+                  "value": "*"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"Budiono Agung\",\n        \"phone\": \"089274892470\",\n        \"email\": \"rschumm@example.net\",\n        \"id_card_number\": \"1706064599863624\",\n        \"address\": \"87475 Coleman Brooks Apt. 222\\nAmelieton, MN 48113-4516\",\n        \"vehicle_type\": \"motorcycle\",\n        \"vehicle_plate\": \"M 12345 AB\",\n        \"level\": 3,\n        \"is_active\": true,\n        \"created_at\": \"2026-09-19T23:13:02.000000Z\",\n        \"updated_at\": \"2026-09-19T23:29:32.000000Z\"\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "New Request",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"level\": 3 }"
+            },
+            "url": {
+              "raw": "{{base_url}}/couriers/1",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "couriers",
+                "1"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "200",
+              "originalRequest": {
+                "method": "DELETE",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{ \"level\": 3 }"
+                },
+                "url": {
+                  "raw": "{{base_url}}/couriers/1",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "couriers",
+                    "1"
+                  ]
+                }
+              },
+              "status": "No Content",
+              "code": 204,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Host",
+                  "value": "127.0.0.1:8000"
+                },
+                {
+                  "key": "Connection",
+                  "value": "close"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "PHP/8.3.32"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, private"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 19 Sep 2026 23:30:13 GMT"
+                },
+                {
+                  "key": "Access-Control-Allow-Origin",
+                  "value": "*"
+                }
+              ],
+              "cookie": [],
+              "body": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
